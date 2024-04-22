@@ -1,0 +1,16 @@
+30 columns
+time-reversed
+
+1 - unix time
+2 - cumulative energy [100 kWh]
+3 - MPPT1 voltage [655360 V]
+4 - MPPT2 voltage [655360 V]
+5 - MPPT3 voltage [655360 V]
+6 - MPPT4 voltage [655360 V]
+7 - PV1 current [6553600 A]
+8 - PV3 current [6553600 A]
+9 - ?
+10 - PV6 current [100 A]
+11 - PV8 current [100 A]
+
+0680383940

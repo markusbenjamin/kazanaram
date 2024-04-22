@@ -1,0 +1,2055 @@
+7818                           
+time 2024-03-08 15:14:29
+r(2)wlan.c894 pwrMode on
+r(4)SdioRe469 errSta:00000800
+SdioRe469 errSta:00000400
+comm_s159 failed
+core.c791 len=15000000
+r(2)core.c792 ret=FEEFFFFF
+wlan.c1580 cmd=1E
+wlan.c1581 ret=18FCFFFF
+wlan.c892 pwrMode off
+core.c791 len=0A000000
+api.c123 wlanid:2,mode:2
+SdioRe438 errSta:00000100
+comm_s123 Sdio init ok
+hisi.c63 HISILICON_V158
+hisi.c64 cr:0_sr:1_ct:1
+socket305 type:2
+r(2)socket418 bind addr:0x0
+socket419 bind port:51225
+socket305 type:1
+socket419 bind port:52761
+socket889 s:2,cmd:3,val:0,ret:6
+socket889 s:2,cmd:4,val:7,ret:2
+wlan.c1176 sta disconn
+wlan.c1183 reconFlag start
+trace msgPool full
+time 2024-03-08 15:19:28
+socket305 type:4
+respon1476 ret:-1,errno:101
+r(18)respon1476 ret:-1,errno:115
+r(18)respon1393 ret:-1,errno:92
+r(10)socket889 s:4,cmd:3,val:0,ret:7
+r(10)socket889 s:4,cmd:4,val:7,ret:2
+wlan.c1189 reconFlag stop
+wlan.c1176 sta disconn
+r(5)respon1846 ret:-1,errno:103
+r(4)core.c249 taskId=08000000
+r(5)socket644 ret=00000000
+r(4)socket665 ret=FFFFFFFF
+socket305 type:1
+r(8)socket889 s:3,cmd:3,val:0,ret:6
+r(8)socket889 s:3,cmd:4,val:7,ret:2
+socket364 conn port:29546
+socket365 conn addr:0x100000a
+socket366 conn skt ret:-1
+.app_m175 wlanCommIsSdio!
+.at_ap2846 chip:144 ret:0
+
+.drive207 r(6)wpa_ioctl:1,6
+trace msgPool full
+time 2024-03-08 15:23:34
+r(2)respon1393 ret:-1,errno:92
+r(2)socket889 s:3,cmd:3,val:0,ret:6
+r(3)socket889 s:3,cmd:4,val:7,ret:2
+r(13)respon1476 ret:-1,errno:115
+r(2)wlan.c1189 reconFlag stop
+r(2)wlan.c1176 sta disconn
+r(10)respon1846 ret:-1,errno:103
+r(8)core.c249 taskId=08000000
+r(10)socket644 ret=00000000
+r(8)socket665 ret=FFFFFFFF
+r(12)respon1393 ret:-1,errno:92
+socket889 s:3,cmd:3,val:0,ret:6
+socket305 type:4
+socket364 conn port:27250
+socket365 conn addr:0x100000a
+socket366 conn skt ret:-1
+r(10)socket889 s:4,cmd:3,val:0,ret:7
+r(10)socket889 s:4,cmd:4,val:7,ret:2
+wlan.c1643 Deinit
+wlan.c892 pwrMode off
+time 2024-03-08 15:23:39
+r(2)wlan.c894 pwrMode on
+r(4)SdioRe469 errSta:00000800
+SdioRe469 errSta:00000400
+comm_s159 failed
+core.c791 len=15000000
+r(2)core.c792 ret=FEEFFFFF
+wlan.c1580 cmd=1E
+wlan.c1581 ret=18FCFFFF
+wlan.c892 pwrMode off
+core.c791 len=0A000000
+api.c123 wlanid:2,mode:2
+SdioRe438 errSta:00000100
+comm_s123 Sdio init ok
+hisi.c63 HISILICON_V158
+hisi.c64 cr:0_sr:1_ct:1
+socket305 type:2
+r(2)socket418 bind addr:0x0
+socket419 bind port:51225
+socket305 type:1
+socket419 bind port:52761
+socket889 s:2,cmd:3,val:0,ret:6
+socket889 s:2,cmd:4,val:7,ret:2
+wlan.c1176 sta disconn
+wlan.c1183 reconFlag start
+trace msgPool full
+time 2024-03-08 15:27:00
+socket305 type:4
+r(4)respon1476 ret:-1,errno:101
+wlan.c152 staConnCnt:20
+socket305 type:1
+r(13)respon1393 ret:-1,errno:92
+r(12)socket889 s:3,cmd:3,val:0,ret:6
+r(12)socket889 s:3,cmd:4,val:7,ret:2
+socket364 conn port:29546
+r(2)socket365 conn addr:0x100000a
+r(2)socket366 conn skt ret:-1
+r(12)respon1476 ret:-1,errno:115
+wlan.c1189 reconFlag stop
+wlan.c1176 sta disconn
+r(5)respon1846 ret:-1,errno:103
+r(4)core.c249 taskId=08000000
+r(5)socket644 ret=00000000
+r(4)socket665 ret=FFFFFFFF
+socket305 type:4
+socket364 conn port:27250
+socket889 s:4,cmd:3,val:0,ret:7
+socket889 s:4,cmd:4,val:7,ret:2
+trace msgPool full
+time 2024-03-08 15:30:07
+r(9)respon1476 ret:-1,errno:115
+r(9)respon1393 ret:-1,errno:92
+r(11)socket889 s:4,cmd:3,val:0,ret:7
+r(11)socket889 s:4,cmd:4,val:7,ret:2
+.app_m175 wlanCommIsSdio!
+.at_ap2846 chip:144 ret:0
+
+.drive207 r(6)wpa_ioctl:1,6
+wlan.c1189 reconFlag stop
+wlan.c1176 sta disconn
+r(5)respon1846 ret:-1,errno:103
+r(4)core.c249 taskId=08000000
+r(5)socket644 ret=00000000
+r(4)socket665 ret=FFFFFFFF
+r(3)respon1476 ret:-1,errno:115
+r(3)respon1393 ret:-1,errno:92
+socket305 type:1
+socket889 s:3,cmd:3,val:0,ret:6
+socket889 s:3,cmd:4,val:7,ret:2
+socket364 conn port:29546
+socket365 conn addr:0x100000a
+socket366 conn skt ret:-1
+trace msgPool full
+time 2024-03-08 15:32:47
+r(9)respon1393 ret:-1,errno:92
+r(9)socket889 s:3,cmd:3,val:0,ret:6
+r(9)socket889 s:3,cmd:4,val:7,ret:2
+r(9)respon1476 ret:-1,errno:115
+wlan.c1189 reconFlag stop
+wlan.c1176 sta disconn
+r(5)respon1846 ret:-1,errno:103
+r(4)core.c249 taskId=08000000
+r(5)socket644 ret=00000000
+r(4)socket665 ret=FFFFFFFF
+respon1393 ret:-1,errno:92
+wlan.c1643 Deinit
+r(2)wlan.c892 pwrMode off
+wlan.c894 pwrMode on
+r(4)SdioRe469 errSta:00000800
+SdioRe469 errSta:00000400
+comm_s159 failed
+core.c791 len=15000000
+core.c792 ret=FEEFFFFF
+wlan.c1580 cmd=1E
+wlan.c1581 ret=18FCFFFF
+time 2024-03-08 15:32:51
+wlan.c894 pwrMode on
+core.c791 len=0A000000
+core.c792 ret=FEEFFFFF
+api.c123 wlanid:2,mode:2
+SdioRe438 errSta:00000100
+comm_s123 Sdio init ok
+hisi.c63 HISILICON_V158
+hisi.c64 cr:0_sr:1_ct:1
+socket305 type:2
+r(2)socket418 bind addr:0x0
+socket419 bind port:51225
+r(2)socket305 type:1
+socket419 bind port:52761
+socket889 s:2,cmd:3,val:0,ret:6
+socket889 s:2,cmd:4,val:7,ret:2
+wlan.c1176 sta disconn
+wlan.c1183 reconFlag start
+respon1393 ret:-1,errno:92
+socket889 s:3,cmd:3,val:0,ret:6
+socket889 s:3,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:101
+time 2024-03-08 15:37:51
+r(10)respon1393 ret:-1,errno:92
+r(4)socket889 s:3,cmd:3,val:0,ret:6
+r(4)socket889 s:3,cmd:4,val:7,ret:2
+r(2)respon1476 ret:-1,errno:101
+wlan.c152 staConnCnt:20
+r(8)respon1476 ret:-1,errno:115
+socket305 type:4
+r(2)socket364 conn port:27250
+socket365 conn addr:0x100000a
+r(2)socket366 conn skt ret:-1
+r(6)socket889 s:4,cmd:3,val:0,ret:7
+r(6)socket889 s:4,cmd:4,val:7,ret:2
+socket365 conn addr:0x60f5545a
+.app_m175 wlanCommIsSdio!
+.at_ap2846 chip:144 ret:0
+
+.drive207 r(3)wpa_ioctl:1,6
+time 2024-03-08 15:42:51
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:3,cmd:3,val:0,ret:6
+socket889 s:3,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-03-08 15:47:51
+EthDri644 max flow 0
+time 2024-03-08 15:52:51
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 16:47:51
+EthDri644 max flow 0
+time 2024-03-08 16:52:51
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 17:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 18:47:51
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 19:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 20:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 21:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 22:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 23:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 00:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 01:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 02:47:52
+EthDri644 max flow 0
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 03:42:52
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 03:47:52
+EthDri644 max flow 0
+time 2024-03-09 04:42:53
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 04:47:53
+EthDri644 max flow 0
+time 2024-03-09 05:42:52
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 05:47:52
+EthDri644 max flow 0
+time 2024-03-09 06:42:52
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 06:47:52
+EthDri644 max flow 0
+time 2024-03-09 07:42:53
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 07:47:52
+EthDri644 max flow 0
+time 2024-03-09 08:42:52
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 08:47:52
+EthDri644 max flow 0
+time 2024-03-09 09:42:52
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 09:47:52
+EthDri644 max flow 0
+time 2024-03-09 10:42:52
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 10:47:53
+EthDri644 max flow 0
+time 2024-03-09 11:42:53
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 11:47:52
+EthDri644 max flow 0
+time 2024-03-09 12:42:52
+.drive207 wpa_ioctl:1,6
+time 2024-03-09 12:47:53
+EthDri644 max flow 0
+time 2024-03-09 12:57:53
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:4,cmd:3,val:0,ret:7
+socket889 s:4,cmd:4,val:7,ret:2
+#####log end####                         
+
+time 2024-02-21 21:08:00
+.drive207 wpa_ioctl:1,6
+time 2024-02-21 21:48:01
+EthDri644 max flow 0
+time 2024-02-21 22:03:01
+.drive207 wpa_ioctl:1,6
+time 2024-02-21 22:48:01
+EthDri644 max flow 0
+time 2024-02-21 23:03:01
+.drive207 wpa_ioctl:1,6
+time 2024-02-21 23:48:01
+EthDri644 max flow 0
+time 2024-02-22 00:03:01
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 00:48:02
+EthDri644 max flow 0
+time 2024-02-22 01:03:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 01:48:02
+EthDri644 max flow 0
+time 2024-02-22 02:03:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 02:48:02
+EthDri644 max flow 0
+time 2024-02-22 03:03:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 03:48:02
+EthDri644 max flow 0
+time 2024-02-22 04:03:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 04:48:02
+EthDri644 max flow 0
+time 2024-02-22 05:03:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 05:48:02
+EthDri644 max flow 0
+time 2024-02-22 05:58:02
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-22 06:03:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 06:08:02
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-02-22 06:48:02
+EthDri644 max flow 0
+time 2024-02-22 07:03:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 07:48:02
+EthDri644 max flow 0
+time 2024-02-22 07:58:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 08:48:02
+EthDri644 max flow 0
+time 2024-02-22 08:58:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 09:48:02
+EthDri644 max flow 0
+time 2024-02-22 09:58:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 10:48:02
+EthDri644 max flow 0
+time 2024-02-22 10:53:02
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-22 10:58:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 11:08:02
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-02-22 11:48:02
+EthDri644 max flow 0
+time 2024-02-22 11:58:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 12:48:02
+EthDri644 max flow 0
+time 2024-02-22 12:58:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 13:48:03
+EthDri644 max flow 0
+time 2024-02-22 13:58:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 14:48:02
+EthDri644 max flow 0
+time 2024-02-22 14:58:02
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 15:48:03
+EthDri644 max flow 0
+time 2024-02-22 15:58:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 16:48:03
+EthDri644 max flow 0
+time 2024-02-22 16:58:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 17:48:03
+EthDri644 max flow 0
+time 2024-02-22 17:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 18:48:03
+EthDri644 max flow 0
+time 2024-02-22 18:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 19:48:03
+EthDri644 max flow 0
+time 2024-02-22 19:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 20:48:03
+EthDri644 max flow 0
+time 2024-02-22 20:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 21:48:03
+EthDri644 max flow 0
+time 2024-02-22 21:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 22:48:03
+EthDri644 max flow 0
+time 2024-02-22 22:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-22 23:48:03
+EthDri644 max flow 0
+time 2024-02-22 23:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 00:48:03
+EthDri644 max flow 0
+time 2024-02-23 00:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 01:48:03
+EthDri644 max flow 0
+time 2024-02-23 01:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 02:48:03
+EthDri644 max flow 0
+time 2024-02-23 02:53:03
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 03:48:03
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 04:48:03
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 05:48:03
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-23 05:58:03
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-02-23 06:48:03
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 07:48:04
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 08:48:04
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 09:48:04
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 10:48:04
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 11:48:04
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 12:48:04
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-23 13:43:04
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 13:48:04
+EthDri644 max flow 0
+time 2024-02-23 14:43:04
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 14:48:04
+EthDri644 max flow 0
+time 2024-02-23 15:43:04
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 15:48:04
+EthDri644 max flow 0
+time 2024-02-23 16:43:04
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 16:48:04
+EthDri644 max flow 0
+time 2024-02-23 17:43:04
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 17:48:04
+EthDri644 max flow 0
+time 2024-02-23 18:43:04
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 18:48:04
+EthDri644 max flow 0
+time 2024-02-23 19:43:04
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 19:48:04
+EthDri644 max flow 0
+time 2024-02-23 20:43:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 20:48:05
+EthDri644 max flow 0
+time 2024-02-23 21:43:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 21:48:05
+EthDri644 max flow 0
+time 2024-02-23 22:43:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 22:48:05
+EthDri644 max flow 0
+time 2024-02-23 23:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-23 23:48:05
+EthDri644 max flow 0
+time 2024-02-24 00:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 00:48:05
+EthDri644 max flow 0
+time 2024-02-24 01:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 01:48:05
+EthDri644 max flow 0
+time 2024-02-24 02:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 02:48:05
+EthDri644 max flow 0
+time 2024-02-24 03:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 03:48:05
+EthDri644 max flow 0
+time 2024-02-24 04:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 04:48:05
+EthDri644 max flow 0
+time 2024-02-24 05:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 05:48:05
+EthDri644 max flow 0
+time 2024-02-24 05:53:05
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-24 06:03:05
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-02-24 06:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 06:48:05
+EthDri644 max flow 0
+time 2024-02-24 07:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 07:48:05
+EthDri644 max flow 0
+time 2024-02-24 08:38:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 08:48:05
+EthDri644 max flow 0
+time 2024-02-24 09:33:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 09:48:05
+EthDri644 max flow 0
+time 2024-02-24 10:33:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 10:48:05
+EthDri644 max flow 0
+time 2024-02-24 11:33:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 11:48:06
+EthDri644 max flow 0
+time 2024-02-24 12:33:05
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 12:48:05
+EthDri644 max flow 0
+time 2024-02-24 13:33:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 13:48:06
+EthDri644 max flow 0
+time 2024-02-24 14:33:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 14:48:06
+EthDri644 max flow 0
+time 2024-02-24 15:33:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 15:48:06
+EthDri644 max flow 0
+time 2024-02-24 16:33:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 16:48:06
+EthDri644 max flow 0
+time 2024-02-24 17:33:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 17:48:06
+EthDri644 max flow 0
+time 2024-02-24 18:33:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 18:48:06
+EthDri644 max flow 0
+time 2024-02-24 19:28:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 19:48:06
+EthDri644 max flow 0
+time 2024-02-24 20:28:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 20:48:06
+EthDri644 max flow 0
+time 2024-02-24 21:28:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 21:48:06
+EthDri644 max flow 0
+time 2024-02-24 22:28:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 22:48:06
+EthDri644 max flow 0
+time 2024-02-24 23:28:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-24 23:48:06
+EthDri644 max flow 0
+time 2024-02-25 00:28:06
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 00:48:06
+EthDri644 max flow 0
+time 2024-02-25 01:28:07
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 01:48:07
+EthDri644 max flow 0
+time 2024-02-25 02:28:07
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 02:48:07
+EthDri644 max flow 0
+time 2024-02-25 03:28:07
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 03:48:07
+EthDri644 max flow 0
+time 2024-02-25 04:28:07
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 04:48:07
+EthDri644 max flow 0
+time 2024-02-25 05:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 05:48:08
+EthDri644 max flow 0
+time 2024-02-25 05:58:08
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-25 06:08:08
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-02-25 06:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 06:48:08
+EthDri644 max flow 0
+time 2024-02-25 07:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 07:48:08
+EthDri644 max flow 0
+time 2024-02-25 08:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 08:48:08
+EthDri644 max flow 0
+time 2024-02-25 09:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 09:48:08
+EthDri644 max flow 0
+time 2024-02-25 10:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 10:48:08
+EthDri644 max flow 0
+time 2024-02-25 11:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 11:48:08
+EthDri644 max flow 0
+time 2024-02-25 12:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 12:48:08
+EthDri644 max flow 0
+time 2024-02-25 13:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 13:48:08
+EthDri644 max flow 0
+time 2024-02-25 14:23:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 14:48:08
+EthDri644 max flow 0
+time 2024-02-25 15:18:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 15:48:08
+EthDri644 max flow 0
+time 2024-02-25 16:18:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 16:48:08
+EthDri644 max flow 0
+time 2024-02-25 17:18:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 17:48:08
+EthDri644 max flow 0
+time 2024-02-25 18:18:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 18:48:08
+EthDri644 max flow 0
+time 2024-02-25 19:18:08
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 19:48:09
+EthDri644 max flow 0
+time 2024-02-25 20:18:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 20:48:09
+EthDri644 max flow 0
+time 2024-02-25 21:18:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 21:48:09
+EthDri644 max flow 0
+time 2024-02-25 22:18:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 22:48:09
+EthDri644 max flow 0
+time 2024-02-25 23:18:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-25 23:48:09
+EthDri644 max flow 0
+time 2024-02-26 00:18:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 00:48:09
+EthDri644 max flow 0
+time 2024-02-26 01:13:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 01:48:09
+EthDri644 max flow 0
+time 2024-02-26 02:13:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 02:48:09
+EthDri644 max flow 0
+time 2024-02-26 03:13:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 03:48:09
+EthDri644 max flow 0
+time 2024-02-26 04:13:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 04:48:09
+EthDri644 max flow 0
+time 2024-02-26 05:13:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 05:48:09
+EthDri644 max flow 0
+time 2024-02-26 06:03:09
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-26 06:13:09
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 06:48:10
+EthDri644 max flow 0
+time 2024-02-26 07:13:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 07:48:09
+EthDri644 max flow 0
+time 2024-02-26 08:13:09
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 08:48:10
+EthDri644 max flow 0
+time 2024-02-26 09:13:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 09:48:10
+EthDri644 max flow 0
+time 2024-02-26 10:13:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 10:48:10
+EthDri644 max flow 0
+time 2024-02-26 11:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 11:48:10
+EthDri644 max flow 0
+time 2024-02-26 12:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 12:48:10
+EthDri644 max flow 0
+time 2024-02-26 13:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 13:48:10
+EthDri644 max flow 0
+time 2024-02-26 14:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 14:48:10
+EthDri644 max flow 0
+time 2024-02-26 15:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 15:48:10
+EthDri644 max flow 0
+time 2024-02-26 16:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 16:48:10
+EthDri644 max flow 0
+time 2024-02-26 17:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 17:48:10
+EthDri644 max flow 0
+time 2024-02-26 18:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 18:48:10
+EthDri644 max flow 0
+time 2024-02-26 19:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 19:48:10
+EthDri644 max flow 0
+time 2024-02-26 20:08:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 20:48:10
+EthDri644 max flow 0
+time 2024-02-26 21:03:10
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 21:48:10
+EthDri644 max flow 0
+time 2024-02-26 22:03:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 22:48:11
+EthDri644 max flow 0
+time 2024-02-26 23:03:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-26 23:48:11
+EthDri644 max flow 0
+time 2024-02-27 00:03:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 00:48:11
+EthDri644 max flow 0
+time 2024-02-27 01:03:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 01:48:11
+EthDri644 max flow 0
+time 2024-02-27 02:03:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 02:48:11
+EthDri644 max flow 0
+time 2024-02-27 03:03:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 03:48:11
+EthDri644 max flow 0
+time 2024-02-27 04:03:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 04:48:11
+EthDri644 max flow 0
+time 2024-02-27 05:03:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 05:48:11
+EthDri644 max flow 0
+time 2024-02-27 06:03:11
+.drive207 wpa_ioctl:1,6
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-27 06:13:11
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-02-27 06:48:11
+EthDri644 max flow 0
+time 2024-02-27 06:58:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 07:48:11
+EthDri644 max flow 0
+time 2024-02-27 07:58:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 08:48:11
+EthDri644 max flow 0
+time 2024-02-27 08:58:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 09:48:11
+EthDri644 max flow 0
+time 2024-02-27 09:58:11
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 10:48:11
+EthDri644 max flow 0
+time 2024-02-27 10:58:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 11:48:12
+EthDri644 max flow 0
+time 2024-02-27 11:58:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 12:48:12
+EthDri644 max flow 0
+time 2024-02-27 12:58:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 13:48:12
+EthDri644 max flow 0
+time 2024-02-27 13:58:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 14:48:12
+EthDri644 max flow 0
+time 2024-02-27 14:58:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 15:48:12
+EthDri644 max flow 0
+time 2024-02-27 15:58:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 16:48:12
+EthDri644 max flow 0
+time 2024-02-27 16:53:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 17:48:12
+EthDri644 max flow 0
+time 2024-02-27 17:53:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 18:48:12
+EthDri644 max flow 0
+time 2024-02-27 18:53:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 19:48:12
+EthDri644 max flow 0
+time 2024-02-27 19:53:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 20:48:12
+EthDri644 max flow 0
+time 2024-02-27 20:53:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 21:48:12
+EthDri644 max flow 0
+time 2024-02-27 21:53:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 22:48:12
+EthDri644 max flow 0
+time 2024-02-27 22:53:12
+.drive207 wpa_ioctl:1,6
+time 2024-02-27 23:48:12
+EthDri644 max flow 0
+time 2024-02-27 23:53:13
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 00:48:13
+EthDri644 max flow 0
+time 2024-02-28 00:53:13
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 01:48:13
+EthDri644 max flow 0
+time 2024-02-28 01:53:13
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 02:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 03:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 04:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 05:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 06:03:13
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-28 06:13:13
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-02-28 06:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 07:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 08:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 09:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 10:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 11:48:13
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-02-28 12:43:13
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 12:48:13
+EthDri644 max flow 0
+time 2024-02-28 13:43:14
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 13:48:14
+EthDri644 max flow 0
+time 2024-02-28 13:58:14
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-02-28 14:23:16
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-02-28 14:43:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 14:48:16
+EthDri644 max flow 0
+time 2024-02-28 15:43:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 15:48:16
+EthDri644 max flow 0
+time 2024-02-28 16:43:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 16:48:16
+EthDri644 max flow 0
+time 2024-02-28 17:43:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 17:48:16
+EthDri644 max flow 0
+time 2024-02-28 18:43:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 18:48:16
+EthDri644 max flow 0
+time 2024-02-28 19:43:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 19:48:16
+EthDri644 max flow 0
+time 2024-02-28 20:43:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 20:48:16
+EthDri644 max flow 0
+time 2024-02-28 21:43:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 21:48:16
+EthDri644 max flow 0
+time 2024-02-28 22:38:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 22:48:16
+EthDri644 max flow 0
+time 2024-02-28 23:38:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-28 23:48:16
+EthDri644 max flow 0
+time 2024-02-29 00:38:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 00:48:16
+EthDri644 max flow 0
+time 2024-02-29 01:38:16
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 01:48:16
+EthDri644 max flow 0
+time 2024-02-29 02:38:17
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 02:48:17
+EthDri644 max flow 0
+time 2024-02-29 03:38:17
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 03:48:18
+EthDri644 max flow 0
+time 2024-02-29 04:38:18
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 04:48:18
+EthDri644 max flow 0
+time 2024-02-29 05:38:17
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 05:48:17
+EthDri644 max flow 0
+time 2024-02-29 06:38:17
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 06:48:17
+EthDri644 max flow 0
+time 2024-02-29 07:38:17
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 07:48:17
+EthDri644 max flow 0
+time 2024-02-29 08:33:17
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 08:48:17
+EthDri644 max flow 0
+time 2024-02-29 09:33:17
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 09:48:17
+EthDri644 max flow 0
+time 2024-02-29 10:33:17
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 10:48:17
+EthDri644 max flow 0
+time 2024-02-29 11:33:18
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 11:48:18
+EthDri644 max flow 0
+time 2024-02-29 12:33:18
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 12:48:18
+EthDri644 max flow 0
+time 2024-02-29 13:33:18
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 13:48:18
+EthDri644 max flow 0
+time 2024-02-29 14:33:18
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 14:48:18
+EthDri644 max flow 0
+time 2024-02-29 15:33:18
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 15:48:18
+EthDri644 max flow 0
+time 2024-02-29 16:33:18
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 16:48:18
+EthDri644 max flow 0
+time 2024-02-29 17:33:18
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 17:48:18
+EthDri644 max flow 0
+time 2024-02-29 18:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 18:48:19
+EthDri644 max flow 0
+time 2024-02-29 19:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 19:48:19
+EthDri644 max flow 0
+time 2024-02-29 20:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 20:48:19
+EthDri644 max flow 0
+time 2024-02-29 21:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 21:48:19
+EthDri644 max flow 0
+time 2024-02-29 22:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 22:48:19
+EthDri644 max flow 0
+time 2024-02-29 23:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-02-29 23:48:19
+EthDri644 max flow 0
+time 2024-03-01 00:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 00:48:19
+EthDri644 max flow 0
+time 2024-03-01 01:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 01:48:19
+EthDri644 max flow 0
+time 2024-03-01 02:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 02:48:19
+EthDri644 max flow 0
+time 2024-03-01 03:28:19
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 03:48:19
+EthDri644 max flow 0
+time 2024-03-01 04:23:19
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 04:48:19
+EthDri644 max flow 0
+time 2024-03-01 05:23:19
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 05:48:19
+EthDri644 max flow 0
+time 2024-03-01 06:08:19
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+time 2024-03-01 06:13:19
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-03-01 06:23:19
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 06:48:19
+EthDri644 max flow 0
+time 2024-03-01 07:23:19
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 07:48:19
+EthDri644 max flow 0
+time 2024-03-01 08:23:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 08:48:20
+EthDri644 max flow 0
+time 2024-03-01 09:23:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 09:48:20
+EthDri644 max flow 0
+time 2024-03-01 10:23:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 10:48:20
+EthDri644 max flow 0
+time 2024-03-01 11:23:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 11:48:20
+EthDri644 max flow 0
+time 2024-03-01 12:23:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 12:48:20
+EthDri644 max flow 0
+time 2024-03-01 13:48:20
+EthDri644 max flow 0
+time 2024-03-01 14:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 14:48:20
+EthDri644 max flow 0
+time 2024-03-01 15:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 15:48:20
+EthDri644 max flow 0
+time 2024-03-01 16:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 16:48:20
+EthDri644 max flow 0
+time 2024-03-01 17:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 17:48:20
+EthDri644 max flow 0
+time 2024-03-01 18:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 18:48:20
+EthDri644 max flow 0
+time 2024-03-01 19:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 19:48:20
+EthDri644 max flow 0
+time 2024-03-01 20:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 20:48:20
+EthDri644 max flow 0
+time 2024-03-01 21:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 21:48:20
+EthDri644 max flow 0
+time 2024-03-01 22:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 22:48:20
+EthDri644 max flow 0
+time 2024-03-01 23:18:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-01 23:48:20
+EthDri644 max flow 0
+time 2024-03-02 00:13:20
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 00:48:21
+EthDri644 max flow 0
+time 2024-03-02 01:13:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 01:48:21
+EthDri644 max flow 0
+time 2024-03-02 02:13:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 02:48:21
+EthDri644 max flow 0
+time 2024-03-02 03:13:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 03:48:21
+EthDri644 max flow 0
+time 2024-03-02 04:13:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 04:48:21
+EthDri644 max flow 0
+time 2024-03-02 05:13:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 05:48:21
+EthDri644 max flow 0
+time 2024-03-02 06:13:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 06:48:21
+EthDri644 max flow 0
+time 2024-03-02 07:13:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 07:48:21
+EthDri644 max flow 0
+time 2024-03-02 08:13:21
+socket305 type:4
+respon1476 ret:-1,errno:115
+socket364 conn port:27250
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+respon1393 ret:-1,errno:92
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 08:23:21
+socket305 type:1
+respon1393 ret:-1,errno:92
+socket889 s:1,cmd:3,val:0,ret:6
+socket889 s:1,cmd:4,val:7,ret:2
+respon1476 ret:-1,errno:115
+socket364 conn port:29546
+socket365 conn addr:0x60f5545a
+socket366 conn skt ret:-1
+time 2024-03-02 08:48:21
+EthDri644 max flow 0
+time 2024-03-02 09:13:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 09:48:21
+EthDri644 max flow 0
+time 2024-03-02 10:08:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 10:48:21
+EthDri644 max flow 0
+time 2024-03-02 11:08:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 11:48:21
+EthDri644 max flow 0
+time 2024-03-02 12:08:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 12:48:21
+EthDri644 max flow 0
+time 2024-03-02 13:08:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 13:48:21
+EthDri644 max flow 0
+time 2024-03-02 14:08:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 14:48:22
+EthDri644 max flow 0
+time 2024-03-02 15:08:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 15:48:21
+EthDri644 max flow 0
+time 2024-03-02 16:08:21
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 16:48:22
+EthDri644 max flow 0
+time 2024-03-02 17:08:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 17:48:22
+EthDri644 max flow 0
+time 2024-03-02 18:08:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 18:48:22
+EthDri644 max flow 0
+time 2024-03-02 19:08:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 19:48:22
+EthDri644 max flow 0
+time 2024-03-02 20:03:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 20:48:22
+EthDri644 max flow 0
+time 2024-03-02 21:03:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 21:48:22
+EthDri644 max flow 0
+time 2024-03-02 22:03:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 22:48:22
+EthDri644 max flow 0
+time 2024-03-02 23:03:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-02 23:48:22
+EthDri644 max flow 0
+time 2024-03-03 00:03:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 00:48:22
+EthDri644 max flow 0
+time 2024-03-03 01:03:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 01:48:22
+EthDri644 max flow 0
+time 2024-03-03 02:03:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 02:48:22
+EthDri644 max flow 0
+time 2024-03-03 03:03:22
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 03:48:23
+EthDri644 max flow 0
+time 2024-03-03 04:03:23
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 04:48:23
+EthDri644 max flow 0
+time 2024-03-03 05:03:23
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 05:48:23
+EthDri644 max flow 0
+time 2024-03-03 05:58:23
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 06:48:23
+EthDri644 max flow 0
+time 2024-03-03 06:58:23
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 07:48:24
+EthDri644 max flow 0
+time 2024-03-03 07:58:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 08:48:24
+EthDri644 max flow 0
+time 2024-03-03 08:58:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 09:48:24
+EthDri644 max flow 0
+time 2024-03-03 09:58:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 10:48:23
+EthDri644 max flow 0
+time 2024-03-03 10:58:23
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 11:48:24
+EthDri644 max flow 0
+time 2024-03-03 11:58:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 12:48:24
+EthDri644 max flow 0
+time 2024-03-03 12:58:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 13:48:24
+EthDri644 max flow 0
+time 2024-03-03 13:58:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 14:48:24
+EthDri644 max flow 0
+time 2024-03-03 14:58:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 15:48:24
+EthDri644 max flow 0
+time 2024-03-03 15:53:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 16:48:24
+EthDri644 max flow 0
+time 2024-03-03 16:53:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 17:48:24
+EthDri644 max flow 0
+time 2024-03-03 17:53:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 18:48:24
+EthDri644 max flow 0
+time 2024-03-03 18:53:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 19:48:24
+EthDri644 max flow 0
+time 2024-03-03 19:53:24
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 20:48:24
+EthDri644 max flow 0
+time 2024-03-03 20:53:25
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 21:48:25
+EthDri644 max flow 0
+time 2024-03-03 21:53:25
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 22:48:25
+EthDri644 max flow 0
+time 2024-03-03 22:53:25
+.drive207 wpa_ioctl:1,6
+time 2024-03-03 23:48:25
+EthDri644 max flow 0
+time 2024-03-03 23:53:25
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 00:48:25
+EthDri644 max flow 0
+time 2024-03-04 00:53:25
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 01:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 02:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 03:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 04:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 05:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 06:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 07:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 08:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 09:48:25
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 10:48:26
+.drive207 wpa_ioctl:1,6
+EthDri644 max flow 0
+time 2024-03-04 11:43:25
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 11:48:25
+EthDri644 max flow 0
+time 2024-03-04 12:43:25
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 12:48:25
+EthDri644 max flow 0
+time 2024-03-04 13:43:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 13:48:26
+EthDri644 max flow 0
+time 2024-03-04 14:43:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 14:48:26
+EthDri644 max flow 0
+time 2024-03-04 15:43:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 15:48:26
+EthDri644 max flow 0
+time 2024-03-04 16:43:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 16:48:26
+EthDri644 max flow 0
+time 2024-03-04 17:43:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 17:48:26
+EthDri644 max flow 0
+time 2024-03-04 18:43:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 18:48:26
+EthDri644 max flow 0
+time 2024-03-04 19:43:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 19:48:26
+EthDri644 max flow 0
+time 2024-03-04 20:43:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 20:48:26
+EthDri644 max flow 0
+time 2024-03-04 21:38:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 21:48:26
+EthDri644 max flow 0
+time 2024-03-04 22:38:26
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 22:48:26
+EthDri644 max flow 0
+time 2024-03-04 23:38:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-04 23:48:27
+EthDri644 max flow 0
+time 2024-03-05 00:38:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 00:48:27
+EthDri644 max flow 0
+time 2024-03-05 01:38:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 01:48:27
+EthDri644 max flow 0
+time 2024-03-05 02:38:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 02:48:27
+EthDri644 max flow 0
+time 2024-03-05 03:38:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 03:48:27
+EthDri644 max flow 0
+time 2024-03-05 04:38:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 04:48:27
+EthDri644 max flow 0
+time 2024-03-05 05:38:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 05:48:27
+EthDri644 max flow 0
+time 2024-03-05 06:38:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 06:48:27
+EthDri644 max flow 0
+time 2024-03-05 07:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 07:48:27
+EthDri644 max flow 0
+time 2024-03-05 08:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 08:48:27
+EthDri644 max flow 0
+time 2024-03-05 09:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 09:48:27
+EthDri644 max flow 0
+time 2024-03-05 10:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 10:48:27
+EthDri644 max flow 0
+time 2024-03-05 11:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 11:48:27
+EthDri644 max flow 0
+time 2024-03-05 12:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 12:48:27
+EthDri644 max flow 0
+time 2024-03-05 13:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 13:48:27
+EthDri644 max flow 0
+time 2024-03-05 14:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 14:48:27
+EthDri644 max flow 0
+time 2024-03-05 15:33:27
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 15:48:28
+EthDri644 max flow 0
+time 2024-03-05 16:33:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 16:48:28
+EthDri644 max flow 0
+time 2024-03-05 17:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 17:48:28
+EthDri644 max flow 0
+time 2024-03-05 18:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 18:48:28
+EthDri644 max flow 0
+time 2024-03-05 19:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 19:48:28
+EthDri644 max flow 0
+time 2024-03-05 20:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 20:48:28
+EthDri644 max flow 0
+time 2024-03-05 21:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 21:48:28
+EthDri644 max flow 0
+time 2024-03-05 22:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 22:48:28
+EthDri644 max flow 0
+time 2024-03-05 23:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-05 23:48:28
+EthDri644 max flow 0
+time 2024-03-06 00:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 00:48:28
+EthDri644 max flow 0
+time 2024-03-06 01:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 01:48:28
+EthDri644 max flow 0
+time 2024-03-06 02:28:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 02:48:28
+EthDri644 max flow 0
+time 2024-03-06 03:23:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 03:48:28
+EthDri644 max flow 0
+time 2024-03-06 04:23:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 04:48:28
+EthDri644 max flow 0
+time 2024-03-06 05:23:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 05:48:29
+EthDri644 max flow 0
+time 2024-03-06 06:23:28
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 06:48:28
+EthDri644 max flow 0
+time 2024-03-06 07:23:29
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 07:48:29
+EthDri644 max flow 0
+time 2024-03-06 08:23:29
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 08:48:29
+EthDri644 max flow 0
+time 2024-03-06 09:23:29
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 09:48:29
+EthDri644 max flow 0
+time 2024-03-06 10:23:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 10:48:30
+EthDri644 max flow 0
+time 2024-03-06 11:23:29
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 11:48:29
+EthDri644 max flow 0
+time 2024-03-06 12:23:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 12:48:30
+EthDri644 max flow 0
+time 2024-03-06 13:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 13:48:30
+EthDri644 max flow 0
+time 2024-03-06 14:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 14:48:30
+EthDri644 max flow 0
+time 2024-03-06 15:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 15:48:30
+EthDri644 max flow 0
+time 2024-03-06 16:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 16:48:30
+EthDri644 max flow 0
+time 2024-03-06 17:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 17:48:30
+EthDri644 max flow 0
+time 2024-03-06 18:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 18:48:30
+EthDri644 max flow 0
+time 2024-03-06 19:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 19:48:30
+EthDri644 max flow 0
+time 2024-03-06 20:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 20:48:30
+EthDri644 max flow 0
+time 2024-03-06 21:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 21:48:30
+EthDri644 max flow 0
+time 2024-03-06 22:18:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 22:48:30
+EthDri644 max flow 0
+time 2024-03-06 23:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-06 23:48:30
+EthDri644 max flow 0
+time 2024-03-07 00:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 00:48:30
+EthDri644 max flow 0
+time 2024-03-07 01:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 01:48:30
+EthDri644 max flow 0
+time 2024-03-07 02:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 02:48:30
+EthDri644 max flow 0
+time 2024-03-07 03:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 03:48:30
+EthDri644 max flow 0
+time 2024-03-07 04:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 04:48:30
+EthDri644 max flow 0
+time 2024-03-07 05:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 05:48:30
+EthDri644 max flow 0
+time 2024-03-07 06:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 06:48:30
+EthDri644 max flow 0
+time 2024-03-07 07:13:30
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 07:48:31
+EthDri644 max flow 0
+time 2024-03-07 08:13:31
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 08:48:31
+EthDri644 max flow 0
+time 2024-03-07 09:08:31
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 09:48:31
+EthDri644 max flow 0
+time 2024-03-07 10:08:31
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 10:48:32
+EthDri644 max flow 0
+time 2024-03-07 11:08:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 11:48:31
+EthDri644 max flow 0
+time 2024-03-07 12:08:31
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 12:48:32
+EthDri644 max flow 0
+time 2024-03-07 13:08:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 13:48:32
+EthDri644 max flow 0
+time 2024-03-07 14:08:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 14:48:32
+EthDri644 max flow 0
+time 2024-03-07 15:08:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 15:48:32
+EthDri644 max flow 0
+time 2024-03-07 16:08:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 16:48:32
+EthDri644 max flow 0
+time 2024-03-07 17:08:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 17:48:32
+EthDri644 max flow 0
+time 2024-03-07 18:08:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 18:48:32
+EthDri644 max flow 0
+time 2024-03-07 19:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 19:48:32
+EthDri644 max flow 0
+time 2024-03-07 20:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 20:48:32
+EthDri644 max flow 0
+time 2024-03-07 21:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 21:48:32
+EthDri644 max flow 0
+time 2024-03-07 22:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 22:48:32
+EthDri644 max flow 0
+time 2024-03-07 23:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-07 23:48:32
+EthDri644 max flow 0
+time 2024-03-08 00:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 00:48:32
+EthDri644 max flow 0
+time 2024-03-08 01:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 01:48:32
+EthDri644 max flow 0
+time 2024-03-08 02:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 02:48:33
+EthDri644 max flow 0
+time 2024-03-08 03:03:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 03:48:32
+EthDri644 max flow 0
+time 2024-03-08 04:03:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 04:48:32
+EthDri644 max flow 0
+time 2024-03-08 04:58:32
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 05:48:33
+EthDri644 max flow 0
+time 2024-03-08 05:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 06:48:33
+EthDri644 max flow 0
+time 2024-03-08 06:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 07:48:33
+EthDri644 max flow 0
+time 2024-03-08 07:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 08:48:33
+EthDri644 max flow 0
+time 2024-03-08 08:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 09:48:33
+EthDri644 max flow 0
+time 2024-03-08 09:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 10:48:33
+EthDri644 max flow 0
+time 2024-03-08 10:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 11:48:33
+EthDri644 max flow 0
+time 2024-03-08 11:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 12:48:33
+EthDri644 max flow 0
+time 2024-03-08 12:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 13:48:33
+EthDri644 max flow 0
+time 2024-03-08 13:58:33
+.drive207 wpa_ioctl:1,6
+time 2024-03-08 14:48:33
+EthDri644 max flow 0
+time 2024-03-08 14:53:33
+.drive207 wpa_ioctl:1,6
+trace msgPool full
+time 2024-03-08 15:08:18
+respon1786 ret:-1,errno:103
+socket502 ret:-1 sockId:1
+r(12)respon1393 ret:-1,errno:92
+r(10)socket889 s:1,cmd:3,val:0,ret:6
+r(10)socket889 s:1,cmd:4,val:7,ret:2
+r(12)respon1476 ret:-1,errno:115
+socket364 conn port:29546
+r(2)socket365 conn addr:0x100000a
+r(2)socket366 conn skt ret:-1
+socket305 type:4
+socket364 conn port:27250
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+wlan.c1189 reconFlag stop
+wlan.c1176 sta disconn
+r(3)respon1393 ret:-1,errno:22
+socket889 s:2,cmd:3,val:0,ret:1
+socket889 s:2,cmd:4,val:1,ret:2
+r(3)respon1846 ret:-1,errno:103
+r(3)core.c249 taskId=08000000
+r(2)socket644 ret=00000000
+r(2)socket665 ret=FFFFFFFF
+trace msgPool full
+time 2024-03-08 15:13:17
+r(11)respon1476 ret:-1,errno:115
+r(11)respon1393 ret:-1,errno:92
+r(10)socket889 s:2,cmd:3,val:0,ret:7
+r(10)socket889 s:2,cmd:4,val:7,ret:2
+.drive207 r(3)wpa_ioctl:1,6
+socket305 type:1
+r(9)socket889 s:1,cmd:3,val:0,ret:6
+r(9)socket889 s:1,cmd:4,val:7,ret:2
+socket364 conn port:29546
+socket365 conn addr:0x100000a
+socket366 conn skt ret:-1
+wlan.c1189 reconFlag stop
+wlan.c1176 sta disconn
+r(5)respon1846 ret:-1,errno:103
+r(4)core.c249 taskId=08000000
+r(5)socket644 ret=00000000
+r(4)socket665 ret=FFFFFFFF
+r(8)respon1393 ret:-1,errno:92
+r(8)respon1476 ret:-1,errno:115
+trace msgPool full
+time 2024-03-08 15:14:24
+r(3)respon1393 ret:-1,errno:92
+r(2)socket889 s:1,cmd:3,val:0,ret:6
+r(2)socket889 s:1,cmd:4,val:7,ret:2
+r(3)respon1476 ret:-1,errno:115
+socket305 type:4
+.drive207 r(3)wpa_ioctl:1,6
+socket364 conn port:27250
+socket365 conn addr:0x100000a
+socket366 conn skt ret:-1
+socket889 s:2,cmd:3,val:0,ret:7
+socket889 s:2,cmd:4,val:7,ret:2
+wlan.c1189 reconFlag stop
+wlan.c1176 sta disconn
+r(5)respon1846 ret:-1,errno:103
+r(4)core.c249 taskId=08000000
+r(5)socket644 ret=00000000
+r(4)socket665 ret=FFFFFFFF
+core.c280 ret:-1,errno:107
+respon1393 ret:-1,errno:92
+wlan.c1643 Deinit
+wlan.c892 pwrMode off
